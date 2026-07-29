@@ -9,14 +9,26 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    <a class="site-title" href="{{ "/" | relative_url }}">
+      <img class="site-logo" src="{{ "/assets/images/fobb-logo-ivory.png" | relative_url }}" alt="{{ site.title }}">
+    </a>
     <nav class="site-nav">
-      <a href="{{ "/about.html" | relative_url }}">About</a>
-      <a href="{{ "/blog.html" | relative_url }}">News &amp; Events</a>
-      <a href="{{ "/join.html" | relative_url }}">Join</a>
-      <a href="{{ "/support.html" | relative_url }}">Support the Refuge</a>
+      <a href="{{ "/" | relative_url }}">Home</a>
+      <a href="{{ "/about/" | relative_url }}">About</a>
+      <a href="{{ "/location/" | relative_url }}">Location</a>
+      <a href="{{ "/join/" | relative_url }}">Join</a>
+      <a href="{{ "/photo-contest/" | relative_url }}">2026 Photo Contest</a>
+      <a href="{{ "/support/" | relative_url }}">Support the Refuge</a>
     </nav>
+    <div class="site-social">
+      <a href="https://www.facebook.com/groups/55588469461/" target="_blank" rel="noopener" aria-label="Facebook">{% include icons/facebook.svg %}</a>
+      <a href="mailto:friendsofblackbayou@gmail.com" aria-label="Email">{% include icons/mail.svg %}</a>
+    </div>
   </header>
+
+  {% if page.banner %}
+  <div class="banner" style="background-image: url('{{ page.banner | relative_url }}'); background-position: {{ page.banner_position | default: 'center' }};"></div>
+  {% endif %}
 
   <main class="page-content">
     {{ content }}
