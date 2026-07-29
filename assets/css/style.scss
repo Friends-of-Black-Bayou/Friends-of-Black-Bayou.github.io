@@ -69,9 +69,21 @@ body {
 }
 
 .banner {
+  position: relative;
   width: 100%;
   height: 550px;
   background-size: cover;
+}
+
+.banner-credit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0.25rem 0.6rem;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 0.75rem;
 }
 
 .site-footer {

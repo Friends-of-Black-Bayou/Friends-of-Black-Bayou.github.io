@@ -27,7 +27,11 @@
   </header>
 
   {% if page.banner %}
-  <div class="banner" style="background-image: url('{{ page.banner | relative_url }}'); background-position: {{ page.banner_position | default: 'center' }};"></div>
+  <div class="banner" role="img" aria-label="{{ page.banner_alt | default: '' }}" title="{{ page.banner_alt }}" style="background-image: url('{{ page.banner | relative_url }}'); background-position: {{ page.banner_position | default: 'center' }};">
+    {% if page.banner_credit %}
+    <p class="banner-credit">{{ page.banner_credit }}</p>
+    {% endif %}
+  </div>
   {% endif %}
 
   <main class="page-content">
