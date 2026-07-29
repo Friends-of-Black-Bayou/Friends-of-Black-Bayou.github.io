@@ -5,4 +5,5 @@
 layout: page
 banner: /assets/images/join-banner.png
 banner_position: center 20%
+banner_alt: "Cluster of small yellow wildflowers blooming against a dark forest background"
 ---
