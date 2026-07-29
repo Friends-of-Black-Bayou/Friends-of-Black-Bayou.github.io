@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}{% if page.title %} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    <nav class="site-nav">
+      <a href="{{ "/about.html" | relative_url }}">About</a>
+      <a href="{{ "/blog.html" | relative_url }}">News &amp; Events</a>
+      <a href="{{ "/join.html" | relative_url }}">Join</a>
+      <a href="{{ "/support.html" | relative_url }}">Support the Refuge</a>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
