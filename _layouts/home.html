@@ -2,5 +2,74 @@
 layout: default
 ---
 <div class="home">
+  {% if page.mission %}
+  <p class="mission">{{ page.mission }} </p>
+  {% endif %}
+  
   {{ content }}
+
+  <section class="home-section">
+    <h2>What We Do</h2>
+    <div class="card-grid">
+      {% for item in site.data.programs %}
+      <a class="card" href="{{ item.url | relative_url }}">
+	<div class="card-image" style="--card-image: url('{{ item.image | relative_url }}');"></div>
+	<div class="card-body">
+          <h3 class="card-title">{{ item.title }}</h3>
+          <p class="card-blurb">{{ item.blurb }}</p>
+          <span class="card-link">Learn more →</span>
+	</div>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% assign today = site.time | date: "%Y-%m-%d" %}
+  {% assign upcoming = site.events | where_exp: "e", "e.event_date >= today" | sort: "event_date" %}
+
+  {% if upcoming.size > 0 %}
+  <section class="home-section">
+    <h2>Upcoming at the Refuge</h2>
+    <ul class="event-list">
+      {% for event in upcoming limit: 3 %}
+      <li class="event-item">
+	<div class="event-date">{{ event.event_date | date: "%b %-d"}}</div>
+	<div class="event-detail">
+	  <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
+	  <p class="event-blurb">{{ event.blurb }}</p>
+	</div>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="section-link" href="{{ "/events/" | relative_url }}">View all events →</a>
+  </section>
+  {% endif %}
+  
+  <section class="home-section">
+  <h2>Get Involved</h2>
+  <div class="card-grid">
+    {% for item in site.data.involve %}
+    <a class="card card--compact" href="{{ item.url | relative_url }}">
+      <div class="card-body">
+        <h3 class="card-title">{{ item.title }}</h3>
+        <p class="card-blurb">{{ item.blurb }}</p>
+        <span class="card-link">Learn more →</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  </section>
+  
+  <section class="home-section">
+    <h2>News</h2>
+    <ul class="post-list">
+      {% for post in site.posts limit: 3 %}
+      <li class="post-list-item">
+        <a class="post-list-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <p class="post-list-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+        <div class="post-list-excerpt">{{ post.excerpt }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>

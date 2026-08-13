@@ -1,0 +1,13 @@
+---
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Location
+  url: /location/
+- title: Join
+  url: /join/
+- title: Photo Contest
+  url: /photo-contest/
+- title: Support the Refuge
+  url: /support/

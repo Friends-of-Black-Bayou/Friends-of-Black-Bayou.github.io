@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }}{% if page.title %} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-</head>
-<body>
-  <header class="site-header">
-    <a class="site-title" href="{{ "/" | relative_url }}">
-      <img class="site-logo" src="{{ "/assets/images/fobb-logo-ivory.png" | relative_url }}" alt="{{ site.title }}">
-    </a>
-    <nav class="site-nav">
-      <a href="{{ "/" | relative_url }}">Home</a>
-      <a href="{{ "/about/" | relative_url }}">About</a>
-      <a href="{{ "/location/" | relative_url }}">Location</a>
-      <a href="{{ "/join/" | relative_url }}">Join</a>
-      <a href="{{ "/photo-contest/" | relative_url }}">2026 Photo Contest</a>
-      <a href="{{ "/support/" | relative_url }}">Support the Refuge</a>
-    </nav>
-    <div class="site-social">
-      <a href="https://www.facebook.com/groups/55588469461/" target="_blank" rel="noopener" aria-label="Facebook"><img src="{{ "/assets/images/facebook-icon.png" | relative_url }}" alt=""></a>
-      <a href="mailto:friendsofblackbayou@gmail.com" aria-label="Email">{% include icons/mail.svg %}</a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}{% if page.title %} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-title" href="{{ "/" | relative_url }}">
+	<img class="site-logo" src="{{ "/assets/images/fobb-logo-ivory.png" | relative_url }}" alt="{{ site.title }}">
+      </a>
+      {% include nav.html class="site-nav" %}
+      {% include socials.html class="site-social" %}
+    </header>
+
+    {% if page.hero %}
+    {% include hero.html %}
+    {% elsif page.banner %}
+    <div class="banner" role="img" aria-label="{{ page.banner_alt | default: '' }}" title="{{ page.banner_alt }}" style="background-image: url('{{ page.banner | relative_url }}'); background-position: {{ page.banner_position | default: 'center' }};">
+      {% if page.banner_credit %}
+      <p class="banner-credit">{{ page.banner_credit }}</p>
+      {% endif %}
     </div>
-  </header>
-
-  {% if page.banner %}
-  <div class="banner" role="img" aria-label="{{ page.banner_alt | default: '' }}" title="{{ page.banner_alt }}" style="background-image: url('{{ page.banner | relative_url }}'); background-position: {{ page.banner_position | default: 'center' }};">
-    {% if page.banner_credit %}
-    <p class="banner-credit">{{ page.banner_credit }}</p>
     {% endif %}
-  </div>
-  {% endif %}
 
-  <main class="page-content">
-    {{ content }}
-  </main>
+    <main class="page-content">
+      {{ content }}
+    </main>
 
-  <footer class="site-footer">
-    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
-  </footer>
-</body>
+    <footer class="site-footer">
+      <div class="footer-top">
+	<div class="footer-brand">
+	  <img class="footer-logo" src="{{ "/assets/images/fobb-logo-ivory.png" | relative_url}}" alt-"{{ site.title }}">
+	  <p class="footer-tagline">Community stewardship of Black Bayou Lake National Wildlife Refuge since 1997.</p>
+
+	  {% include socials.html class="footer-social" %}
+	  <p class="footer-contact">
+	    {{ site.address}}<br/>
+	    {{ site.mailing_address }}<br/>
+	    {% assign tel = site.phone | remove: "(" | remove: ")" | remove: " " | remove: "-" %}
+	    <a href="tel:+1{{ tel }}">{{ site.phone }}</a>
+	  </p>
+	</div>
+	<div class="footer-links">
+	  {% for group in site.data.footer_nav %}
+	  <div class="footer-group">
+	    <h2 class="footer-heading">{{ group.heading }}</h2>
+	    <ul>
+	      {% for link in group.links %}
+	      <li>
+		<a href="{{ link.url | relative_url }}"
+		   {% if link.external %} target="_blank" rel="noopener"{% endif %}
+		   {% if page.url == link.url %}aria-current="page"{% endif %}>{{link.title}}</a>
+	      </li>
+	      {% endfor %}
+	    </ul>
+	  </div>
+	  {% endfor %}
+	</div>
+      </div>
+
+      <div class="footer-bar">
+	&copy; {{ site.time | date: "%Y" }} {{ site.title }}
+	<!-- <a href="{{ "/terms/" | relative_url }}">Terms</a> -->
+	<!-- <a href="{{ "/privacy" | relative_url }}">Privacy</a> -->
+      </div>
+    </footer>
+  </body>
 </html>

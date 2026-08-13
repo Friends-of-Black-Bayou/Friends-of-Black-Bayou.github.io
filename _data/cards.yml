@@ -1,0 +1,16 @@
+---
+- title: "Become a Member"
+  url: /join/
+  image: /assets/images/join-banner.jpg
+  blurb: "Members enjoy the satisfaction of knowing their dues help preserve
+  wildlife."
+- title: "Volunteer"
+  url: /about/
+  image: /assets/images/about-banner.jpg
+  blurb: "Volunteers are the lifeblood of Friends of Black Bayou Lake National
+  Wildlife Refuge."
+- title: "Donate"
+  url: /support/
+  image: /assets/images/support-banner.jpg
+  blurb: "Support conservation, education, and habitat restoration at the
+  refuge."

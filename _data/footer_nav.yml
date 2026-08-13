@@ -1,0 +1,37 @@
+---
+- heading: Visit
+  links:
+    - title: Location & Directions
+      url: /location/
+    - title: Trails
+      url: /trails/
+
+- heading: Get Involved
+  links:
+    - title: Become a Member
+      url: /join/
+    - title: Volunteer
+      url: /volunteer/
+    - title: Donate
+      url: /support/
+
+- heading: Programs
+  links:
+    - title: Fall Celebration
+      url: /fall-celebration/
+    - title: 2026 Photo Contest
+      url: /photo-contest/
+    - title: Plein Air
+      url: /plein-air/
+    - title: Events
+      url: /events/
+
+- heading: About
+  links:
+    - title: About FoBB
+      url: /about/
+    - title: Board & Officers
+      url: /board/
+    - title: Louisiana Master Naturalist
+      url: https://www.lmnne.org/
+      external: true

@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-banner: /assets/images/location-banner.png
+banner: /assets/images/location-banner.jpg
 banner_position: center 80%
 banner_alt: "Sunlight bursts through bare cypress trees, reflected in the misty lake water below"
 ---
