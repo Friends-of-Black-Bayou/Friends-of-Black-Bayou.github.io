@@ -93,13 +93,6 @@ body {
     display: block;
 }
 
-.banner {
-    position: relative;
-    width: 100%;
-    height: 550px;
-    background-size: cover;
-}
-
 .banner-credit {
     position: absolute;
     right: 0;
@@ -111,15 +104,34 @@ body {
     font-size: 0.75rem;
 }
 
-.hero {
+.hero, .banner {
     position: relative;
-    height: 640px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: linear-gradient(180deg, rgba(20, 30, 10, 0.15) 0%, rgba(15, 20, 10, 0.55) 100%), var(--hero-image);
+    background-image: linear-gradient(180deg, rgba(20, 30, 10, 0.15) 0%, var(--overlay-end) 100%), var(--banner-image);
     background-size: cover;
-    background-position: center;
+    background-position: var(--banner-position, center);
+}
+
+.hero {
+    height: 640px;
+    --overlay-end: rgba(15, 20, 10, 0.55);
+}
+
+.banner {
+    height: clamp(220px, 33vw, 420px);
+    --overlay-end: rgba(15, 20, 10, 0.62);
+}
+
+.banner-content {
+    max-width: 720px;
+    padding: 0 3rem 2.5rem;
+}
+
+.banner .page-title {
+    margin: 0;
+    color: var(--ivory);
 }
 
 .hero-content {
@@ -305,16 +317,18 @@ body {
     text-decoration: none;
 }
 
+.page-title{
+    margin: 0 0 2rem;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--text-display);
+}
 .prose {
     max-width: 680px;
     margin: 0 auto;
     padding: 4rem 3rem 6rem;
-}
-
-.prose p, .prose li {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    color: var(--text);
 }
 
 .prose h2 {
@@ -323,6 +337,66 @@ body {
     font-weight: 400;
     color: var(--text-display);
     margin: 2.5rem 0 1rem;
+}
+
+.prose h3{
+    margin: 2rem 0 0.75rem;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--text-display);
+}
+
+.prose ul, .prose ol{
+    margin: 1.25rem 0;
+    padding-left: 1.5rem;
+}
+
+.prose li {
+    margin-bottom: 0.4rem;
+}
+
+.prose p, .prose li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text);
+}
+
+.prose a {
+    color: var(--brand-green);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
+.prose a:hover {
+    color: var(--brand-green-dark);
+}
+
+.prose img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.prose hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 3rem 0;
+}
+
+.prose blockquote {
+    margin: 2.2rem 0;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--brand-green);
+}
+
+.prose blockquote p {
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: var(--text-display);
 }
 
 .home-section {

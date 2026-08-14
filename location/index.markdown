@@ -4,6 +4,6 @@
 
 layout: page
 banner: /assets/images/location-banner.jpg
-banner_position: center 80%
+banner_position: center 65%
 banner_alt: "Sunlight bursts through bare cypress trees, reflected in the misty lake water below"
 ---

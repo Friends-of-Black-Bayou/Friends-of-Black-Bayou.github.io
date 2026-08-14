@@ -24,11 +24,16 @@
     {% if page.hero %}
     {% include hero.html %}
     {% elsif page.banner %}
-    <div class="banner" role="img" aria-label="{{ page.banner_alt | default: '' }}" title="{{ page.banner_alt }}" style="background-image: url('{{ page.banner | relative_url }}'); background-position: {{ page.banner_position | default: 'center' }};">
+    <section class="banner"
+	     style="--banner-image: url('{{ page.banner | relative_url }}');
+		    --banner-position: {{ page.banner_position | default: 'center' }};">
+      <div class="banner-content">
+	<h1 class="page-title">{{ page.title }}</h1>
+      </div>
       {% if page.banner_credit %}
       <p class="banner-credit">{{ page.banner_credit }}</p>
       {% endif %}
-    </div>
+    </section>
     {% endif %}
 
     <main class="page-content">
