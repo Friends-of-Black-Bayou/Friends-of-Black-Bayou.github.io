@@ -1,16 +1,16 @@
 ---
 - title: "Fall Celebration"
   url: /fall-celebration/
-  image: /assets/images/fall_celebration-banner.jpg
+  image: /assets/images/fall_celebration-card.jpg
   blurb: "Our flagship autumn festival — exhibitors, food, live wildlife, and
           free games and activities for kids."
 - title: "Photo Contest"
   url: /photo-contest/
-  image: /assets/images/photo_contest-banner.jpg
+  image: /assets/images/photo_contest-card.jpg
   blurb: "Submit your best refuge photography. Winning images are displayed in
           the Visitor Center."
 - title: "Plein Air"
   url: /plein-air/
-  image: /assets/images/plein_air-banner.jpg
+  image: /assets/images/plein_air-card.jpg
   blurb: "Free outdoor art workshops on the third Saturday of every month, for
   all skill levels."
