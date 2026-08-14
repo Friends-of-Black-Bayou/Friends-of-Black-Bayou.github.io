@@ -1,5 +1,5 @@
-<nav class="{{ include.class }}">
+<nav class="{{ include.class }}"{% if include.id %} id="{{ include.id }}"{% endif %}>
   {% for item in site.data.nav %}
-  <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page" {% endif %}>{{ item. title }}</a>
+  <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page" {% endif %}>{{ item.title }}</a>
   {% endfor %}
 </nav>

@@ -15,6 +15,7 @@
     --text: oklch(0.24 0.01 100);
     --text-muted: oklch(0.42 0.01 100);
     --border: oklch(0.9 0.01 100);
+    --gutter: clamp(1.25rem, 5vw, 3rem);
 
     /* type */
     --font-heading: "Libre Caslon Text", Georgia, serif;
@@ -115,7 +116,7 @@ body {
 }
 
 .hero {
-    height: 640px;
+    height: clamp(460px, 50vw, 640px);
     --overlay-end: rgba(15, 20, 10, 0.55);
 }
 
@@ -126,7 +127,7 @@ body {
 
 .banner-content {
     max-width: 720px;
-    padding: 0 3rem 2.5rem;
+    padding: 0 var(--gutter) 2.5rem;
 }
 
 .banner .page-title {
@@ -136,7 +137,7 @@ body {
 
 .hero-content {
     max-width: 720px;
-    padding: 0 3rem 4rem;
+    padding: 0 var(--gutter) 4rem;
 }
 
 .hero-eyebrow {
@@ -151,7 +152,7 @@ body {
 .hero-heading {
     margin: 0 0 1rem;
     font-family: var(--font-heading);
-    font-size: 3.6rem;
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
     font-weight: 400;
     line-height: 1.05;
     color: var(--ivory);
@@ -168,6 +169,7 @@ body {
 .hero-actions {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .hero-actions a {
@@ -191,11 +193,11 @@ body {
 .mission {
     max-width: 780px;
     margin: 0 auto;
-    padding: 5.5rem 3rem;
+    padding: 5.5rem var(--gutter);
     text-align: center;
     text-wrap: balance;
     font-family: var(--font-heading);
-    font-size: 1.35rem;
+    font-size: clamp(1.15rem, 2.5vw, 1.35rem);
     line-height: 1.5;
     color: var(--text-display);
 }
@@ -320,7 +322,7 @@ body {
 .page-title{
     margin: 0 0 2rem;
     font-family: var(--font-heading);
-    font-size: 2.4rem;
+    font-size: clamp(1.75rem, 4.5vw, 2.4rem);
     font-weight: 400;
     line-height: 1.15;
     color: var(--text-display);
@@ -328,7 +330,7 @@ body {
 .prose {
     max-width: 680px;
     margin: 0 auto;
-    padding: 4rem 3rem 6rem;
+    padding: 4rem var(--gutter) 6rem;
 }
 
 .prose h2 {
@@ -402,7 +404,7 @@ body {
 .home-section {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 3rem 4rem;
+    padding: 0 var(--gutter) 4rem;
 }
 
 .home-section h2 {
@@ -469,7 +471,7 @@ body {
     gap: 4rem;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 6rem 3rem 4rem;
+    padding: 6rem var(--gutter) 4rem;
 }
 
 .footer-links {
@@ -562,4 +564,47 @@ body {
 
 .footer-bar a {
     color: var(--cta-text);
+}
+
+.nav-toggle { display: none; }
+
+@media (max-width: 900px) {
+    .nav-toggle{
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	min-height: 44px;
+	padding: 0.5rem 0.75rem;
+	background: none;
+	border: 1px solid var(--ivory-dim);
+	border-radius: 2px;
+	color: var(--ivory);
+	font: inherit;
+	font-size: 0.82rem;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	cursor: pointer;
+    }
+
+    .site-nav {display: none;}
+
+    .nav-toggle[aria-expanded="true"] ~ .site-nav {
+	display: flex;
+	flex: 1 0 100%;
+	flex-direction: column;
+	gap: 0.25rem;
+    }
+
+    .site-header { flex-wrap: wrap;}
+    .site-nav a { padding: 0.6rem 0; }
+}
+
+@media (max-width: 800px) {
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

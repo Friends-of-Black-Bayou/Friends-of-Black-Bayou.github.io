@@ -17,7 +17,11 @@
       <a class="site-title" href="{{ "/" | relative_url }}">
 	<img class="site-logo" src="{{ "/assets/images/fobb-logo-ivory.png" | relative_url }}" alt="{{ site.title }}">
       </a>
-      {% include nav.html class="site-nav" %}
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+	<span class="nav-toggle-bars" aria-hidden="true"></span>
+	Menu
+      </button>
+      {% include nav.html class="site-nav" id="site-nav" %}
       {% include socials.html class="site-social" %}
     </header>
 
@@ -78,5 +82,6 @@
 	<!-- <a href="{{ "/privacy" | relative_url }}">Privacy</a> -->
       </div>
     </footer>
+    <script src="{{ "/assets/js/nav.js" | relative_url }}"></script>
   </body>
 </html>
