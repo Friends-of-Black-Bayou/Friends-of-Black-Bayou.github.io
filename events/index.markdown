@@ -1,6 +1,10 @@
 ---
 layout: page
 title: Events
+banner: /assets/images/news-events-banner.jpg
+banner_position: center 30%
+banner_alt: "Great blue heron holding an amphiuma crosswise in its bill above the lake's rippled surface"
+banner_credit: "\"Caught\" by John K. Guice"
 ---
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
