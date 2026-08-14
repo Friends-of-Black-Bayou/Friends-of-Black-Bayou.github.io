@@ -612,3 +612,27 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@font-face {
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/public-sans-var.woff2' | relative_url }}") format("woff2");
+}
+
+@font-face {
+    font-family: "Libre Caslon Text";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/libre-caslon-text-400.woff2' | relative_url }}") format("woff2");
+}
+
+@font-face {
+    font-family: "Libre Caslon Text";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("{{ '/assets/fonts/libre-caslon-text-400-italic.woff2' | relative_url }}") format("woff2");
+}
