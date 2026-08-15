@@ -46,6 +46,11 @@ collections:
   posts:
     permalink: /news/:year/:month/:day/:title/
 
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: post }
+  - scope: { path: "", type: "events" }
+    values: { layout: post }        
 timezone: America/Chicago
 # Exclude from processing.
 # The following items will not be processed, by default.

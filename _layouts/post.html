@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-<article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+<article class="prose">
+  <h1 class="page-title">{{ page.title }}</h1>
   <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+  {% assign now_year  = site.time | date: '%Y' | plus: 0 %}
+  {% assign post_year = page.date | date: '%Y' | plus: 0 %}
+  {% assign age = now_year | minus: post_year %}
+  {% if age >= 1 %}
+  <p class="archive-note"><strong>Archived.</strong> Dates, prices, and links may be out of date.</p>
+  {% endif %}
   {{ content }}
 </article>
