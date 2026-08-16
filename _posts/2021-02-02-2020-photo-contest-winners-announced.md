@@ -5,14 +5,14 @@ original_url: https://www.friendsofblackbayou.org/blog/2020-photo-contest-winner
 ---
 On February 1, 2021, the winners of the 2020 Friends of Black Bayou Lake National Wildlife Refuge PHOTO CONTEST are announced. Ribboned photographs are:
 
-- Best of Show-Adult Division, Kimmie Paxton, “Ardea Alba Angling”
-- Adult, 2nd place: Doug Moon, “Barred Owl”
-- Adult, 3rd place: Charles Paxton, “American Alligator and Amber Wings”
-- Adult, Honorable Mention: Doug Moon, “This Is My Spot”; Anirudh Girey, “Lightning Strike by the Lake”; Tim Spillers, “Early Morning Playing.”
+- Best of Show-Adult Division, Kimmie Paxton, "Ardea Alba Angling"
+- Adult, 2nd place: Doug Moon, "Barred Owl"
+- Adult, 3rd place: Charles Paxton, "American Alligator and Amber Wings"
+- Adult, Honorable Mention: Doug Moon, "This Is My Spot"; Anirudh Girey, "Lightning Strike by the Lake"; Tim Spillers, "Early Morning Playing."
 
-- Youth, 1st place: Lexi Harper, “Purple Beauty”
-- Youth, 2nd place: Marirose Spillers, “Standing Out”
-- Youth, Honorable Mention: Lexi Harper, “I See You”; Tyler Byrd, “Cypress Balls”; Lexi Harper, “Another Day Gone.”
+- Youth, 1st place: Lexi Harper, "Purple Beauty"
+- Youth, 2nd place: Marirose Spillers, "Standing Out"
+- Youth, Honorable Mention: Lexi Harper, "I See You"; Tyler Byrd, "Cypress Balls"; Lexi Harper, "Another Day Gone."
 
 **[See all winning photos\>\>](/2020winningphotos.html)**
 

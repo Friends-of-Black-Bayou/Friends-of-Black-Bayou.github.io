@@ -9,7 +9,7 @@ The categories include micro/macro, landscape, animals, birds, people on refuge,
 
 Ribbons will be awarded for the Charles Heck Memorial Grand Prize (best in show) as well as 1st, 2nd, 3rd place, and Honorable Mention in each category.
 
-Each person may submit up to three (3) photos in each category, but each person may win only one “place” ribbon per category (except Honorable Mentions, which are unlimited, and Grand Prize, which may be awarded in addition to a “place” ribbon).
+Each person may submit up to three (3) photos in each category, but each person may win only one "place" ribbon per category (except Honorable Mentions, which are unlimited, and Grand Prize, which may be awarded in addition to a "place" ribbon).
 
 Photos will be judged anonymously.\
 **Judging criteria:\**
