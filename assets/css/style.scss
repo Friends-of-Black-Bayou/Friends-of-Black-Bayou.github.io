@@ -382,12 +382,13 @@ body {
 
 .prose a {
     color: var(--brand-green);
-    text-decoration: underline;
-    text-underline-offset: 0.15em;
+    text-decoration: none;
 }
 
 .prose a:hover {
     color: var(--brand-green-dark);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
 }
 
 .prose img {
