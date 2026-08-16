@@ -3,7 +3,7 @@ layout: page
 title: Photo Contest
 banner: /assets/images/photo_contest-banner.jpg
 banner_position: center 75%
-banner_credit: "“Lucky Lightning” by Michael Gammon, Honorable Mention 2025"
+banner_credit: "\"Lucky Lightning\" by Michael Gammon, Honorable Mention 2025"
 description: "The annual Friends of Black Bayou photo contest, and an archive of past winning photographs."
 ---
 
@@ -30,7 +30,7 @@ Winners will be announced at [Fall Celebration](/fall-celebration)
 <div class="card-image" style="--card-image: url('{{ item.image | relative_url }}');"></div>
 <div class="card-body">
 <h3 class="card-title">{{ item.year }} Winning Photos</h3>
-<p class="card-blurb">{{ item.blurb }}</p>
+<p class="card-blurb">{{ item.blurb | smartify }}</p>
 <span class="card-link">View the gallery →</span>
 </div>
 </a>

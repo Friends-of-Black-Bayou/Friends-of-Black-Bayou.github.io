@@ -1,18 +1,18 @@
 <section class="hero" style="--banner-image: url('{{ page.banner | relative_url }}');">
   <div class="hero-content">
-    <p class="hero-eyebrow">{{ page.hero_eyebrow }}</p>
-    <h1 class="hero-heading">{{ page.hero_heading }}</h1>
-    <p class="hero-text">{{ page.hero_text }}</p>
+    <p class="hero-eyebrow">{{ page.hero_eyebrow | smartify }}</p>
+    <h1 class="hero-heading">{{ page.hero_heading | smartify }}</h1>
+    <p class="hero-text">{{ page.hero_text | smartify }}</p>
     {% if page.hero_cta_primary_url %}
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ page.hero_cta_primary_url | relative_url }}">{{ page.hero_cta_primary_text }}</a>
+      <a class="btn-primary" href="{{ page.hero_cta_primary_url | relative_url }}">{{ page.hero_cta_primary_text | smartify }}</a>
       {% if page.hero_cta_secondary_url %}
-      <a class="btn-secondary" href="{{ page.hero_cta_secondary_url | relative_url }}">{{ page.hero_cta_secondary_text }}</a>
+      <a class="btn-secondary" href="{{ page.hero_cta_secondary_url | relative_url }}">{{ page.hero_cta_secondary_text | smartify }}</a>
       {% endif %}
     </div>
     {% endif %}
   </div>
   {% if page.banner_credit %}
-  <p class="banner-credit">{{ page.banner_credit }}</p>
+  <p class="banner-credit">{{ page.banner_credit | smartify }}</p>
   {% endif %}
 </section>

@@ -13,37 +13,37 @@ Friends of Black Bayou Lake NWR and Louisiana Master Naturalist Northeast member
 
 <figure>
 <img src="/assets/images/news/awesome-earth-img-20230423-165321680-hdr.jpg" />
-<figcaption>Eyes on the climate. "There are no passengers on Planet Earth. We are all crew!"</figcaption>
+<figcaption markdown="span">Eyes on the climate. "There are no passengers on Planet Earth. We are all crew!"</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/ed-display-img-20230427-094521739-hdr.jpg" />
-<figcaption>Dr. Anne Frazier's exhibit "Eyes on The Climate" at Earth Day Celebration 2023.</figcaption>
+<figcaption markdown="span">Dr. Anne Frazier's exhibit "Eyes on The Climate" at Earth Day Celebration 2023.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/solutions-local-img-20230423-165739205-hdr.jpg" />
-<figcaption>Soultions to the climate crisis include capping orphaned gas wells in the Refuges and non-emitting energy generation.</figcaption>
+<figcaption markdown="span">Soultions to the climate crisis include capping orphaned gas wells in the Refuges and non-emitting energy generation.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/solutions-policy-ccl-img-20230423-165833146.jpg" />
-<figcaption>Factoring carbon emissions into economics aids in sustainable development and replaces anxiety with action.</figcaption>
+<figcaption markdown="span">Factoring carbon emissions into economics aids in sustainable development and replaces anxiety with action.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/la-costs-img-20230423-170322320.jpg" />
-<figcaption>The mounting costs of climate-related disasters in dollars and in suffering, are impelling positive changes.</figcaption>
+<figcaption markdown="span">The mounting costs of climate-related disasters in dollars and in suffering, are impelling positive changes.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/us-costs-img-20230423-165658533.jpg" />
-<figcaption>Increasing harm and costs of climate-related disasters.</figcaption>
+<figcaption markdown="span">Increasing harm and costs of climate-related disasters.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/surface-temp-img-20230427-093544102.jpg" />
-<figcaption>The rise in surface temperatures is clear and is disproportionately high in the northern hemisphere.</figcaption>
+<figcaption markdown="span">The rise in surface temperatures is clear and is disproportionately high in the northern hemisphere.</figcaption>
 </figure>
 
 </div>

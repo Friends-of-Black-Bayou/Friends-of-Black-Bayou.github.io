@@ -18,17 +18,17 @@ On February 1, 2021, the winners of the 2020 Friends of Black Bayou Lake Nationa
 
 <figure>
 <img src="/assets/images/news/kimmiepaxton-ardeaalbaangling.jpg" alt="Best of Show-Adult Division," />
-<figcaption>Best of Show-Adult Division, "Ardea Alba Angling" by photographer Kimmie Paxton FoBB 2020 Photo Contest</figcaption>
+<figcaption markdown="span">Best of Show-Adult Division, "Ardea Alba Angling" by photographer Kimmie Paxton FoBB 2020 Photo Contest</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/lexi-harper-purplebeauty_orig.jpg" alt="Youth 1st Place Division," />
-<figcaption>Youth 1st Place Division, "Purple Beauty" by photographer Lexi Harper FoBB 2020 Photo Contest</figcaption>
+<figcaption markdown="span">Youth 1st Place Division, "Purple Beauty" by photographer Lexi Harper FoBB 2020 Photo Contest</figcaption>
 </figure>
 
 See A[ll winning photos\>](/2020winningphotos.html)
 
-All photos in the contest were taken at the North Louisiana Refuges Complex, including Black Bayou Lake National Wildlife Refuge, D’Arbonne National Wildlife Refuge, Upper Ouachita National Wildlife Refuge, Tensas River National Wildlife Refuge, and Handy Brake National Wildlife Refuge.
+All photos in the contest were taken at the North Louisiana Refuges Complex, including Black Bayou Lake National Wildlife Refuge, D'Arbonne National Wildlife Refuge, Upper Ouachita National Wildlife Refuge, Tensas River National Wildlife Refuge, and Handy Brake National Wildlife Refuge.
 
 FoBB board member Leslie Calhoun was chair of the contest this year, with assistance from Ann Bloxom Smith. Judges were several regional photographers who evaluated the entries in youth and adult categories. Charles Heck, Sr., founded the contest in 2004. Deborah Evans is the current president of the Friends, following the 2020 president Gloria Dedmon.
 

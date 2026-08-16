@@ -19,8 +19,8 @@ banner_credit: "\"Caught\" by John K. Guice"
   <li class="event-item">
     <div class="event-date">{{ event.event_date | date: "%b %-d, %Y" }}</div>
     <div class="event-detail">
-      <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
-      <p class="event-blurb">{{ event.blurb }}</p>
+      <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title | smartify }}</a></h3>
+      <p class="event-blurb">{{ event.blurb | smartify }}</p>
     </div>
   </li>
 {% endfor %}
@@ -35,8 +35,8 @@ banner_credit: "\"Caught\" by John K. Guice"
   <li class="event-item">
     <div class="event-date">{{ event.event_date | date: "%b %-d, %Y" }}</div>
     <div class="event-detail">
-      <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
-      <p class="event-blurb">{{ event.blurb }}</p>
+      <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title | smartify }}</a></h3>
+      <p class="event-blurb">{{ event.blurb | smartify }}</p>
     </div>
   </li>
 {% endfor %}

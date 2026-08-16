@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="home">
   {% if page.mission %}
-  <p class="mission">{{ page.mission }} </p>
+  <p class="mission">{{ page.mission | smartify }} </p>
   {% endif %}
   
   {{ content }}
@@ -15,8 +15,8 @@ layout: default
       <a class="card" href="{{ item.url | relative_url }}">
 	<div class="card-image" style="--card-image: url('{{ item.image | relative_url }}');"></div>
 	<div class="card-body">
-          <h3 class="card-title">{{ item.title }}</h3>
-          <p class="card-blurb">{{ item.blurb }}</p>
+          <h3 class="card-title">{{ item.title | smartify }}</h3>
+          <p class="card-blurb">{{ item.blurb | smartify }}</p>
           <span class="card-link">Learn more →</span>
 	</div>
       </a>
@@ -35,8 +35,8 @@ layout: default
       <li class="event-item">
 	<div class="event-date">{{ event.event_date | date: "%b %-d"}}</div>
 	<div class="event-detail">
-	  <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h3>
-	  <p class="event-blurb">{{ event.blurb }}</p>
+	  <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title | smartify }}</a></h3>
+	  <p class="event-blurb">{{ event.blurb | smartify }}</p>
 	</div>
       </li>
       {% endfor %}
@@ -51,8 +51,8 @@ layout: default
     {% for item in site.data.involve %}
     <a class="card card--compact" href="{{ item.url | relative_url }}">
       <div class="card-body">
-        <h3 class="card-title">{{ item.title }}</h3>
-        <p class="card-blurb">{{ item.blurb }}</p>
+        <h3 class="card-title">{{ item.title | smartify }}</h3>
+        <p class="card-blurb">{{ item.blurb | smartify }}</p>
         <span class="card-link">Learn more →</span>
       </div>
     </a>
@@ -65,7 +65,7 @@ layout: default
     <ul class="post-list">
       {% for post in site.posts limit: 3 %}
       <li class="post-list-item">
-        <a class="post-list-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a class="post-list-title" href="{{ post.url | relative_url }}">{{ post.title | smartify }}</a>
         <p class="post-list-date">{{ post.date | date: "%B %-d, %Y" }}</p>
         <div class="post-list-excerpt">{{ post.excerpt }}</div>
       </li>

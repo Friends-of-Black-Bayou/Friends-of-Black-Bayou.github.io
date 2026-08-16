@@ -5,7 +5,7 @@ permalink: /photo-contest/tips/
 description: "Tips"
 banner: /assets/images/photo_contest-banner.jpg
 banner_position: center 75%
-banner_credit: "“Lucky Lightning” by Michael Gammon, Honorable Mention 2025"
+banner_credit: "\"Lucky Lightning\" by Michael Gammon, Honorable Mention 2025"
 ---
 These tips were prepared by the FoBB photo committee. You can also [download these tips as a PDF]({{ site.data.photo_contest.tips_pdf | relative_url }}) to read or print.
 

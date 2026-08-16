@@ -10,7 +10,7 @@ The winners of the 2022 Annual Photo Contest are announced! Congratulations to e
 
 <figure>
 <img src="/assets/images/news/best-of-show-jon-guice-speared_orig.png" />
-<figcaption>2022 Best of Show Photo entitled "Speared" by Jon Guice.</figcaption>
+<figcaption markdown="span">2022 Best of Show Photo entitled "Speared" by Jon Guice.</figcaption>
 </figure>
 
 **[Photographs are listed and shown online here\>\>](/2022winningphotos.html)**

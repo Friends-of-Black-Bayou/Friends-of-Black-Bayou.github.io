@@ -7,47 +7,47 @@ original_url: https://www.friendsofblackbayou.org/blog/2024-earth-day-celebrated
 
 <figure>
 <img src="/assets/images/news/dsc00804.jpg" />
-<figcaption>A male Summer Tanager sang its sweet song in a Magnolia tree by the CLC, while volunteers set up for the event!</figcaption>
+<figcaption markdown="span">A male Summer Tanager sang its sweet song in a Magnolia tree by the CLC, while volunteers set up for the event!</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc00834.jpg" />
-<figcaption>An American Alligator soaking up the warm sunshine behind the Black Bayou Lake Refuge Visitor's Center.</figcaption>
+<figcaption markdown="span">An American Alligator soaking up the warm sunshine behind the Black Bayou Lake Refuge Visitor's Center.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc00994.jpg" />
-<figcaption>Families, couples and friends gathered to view, touch, hold and help release the turtles raised at Nachitoche National Fish Hatchery. Many of these were collected locally by Professor John Carr and ULM Biology team!</figcaption>
+<figcaption markdown="span">Families, couples and friends gathered to view, touch, hold and help release the turtles raised at Nachitoche National Fish Hatchery. Many of these were collected locally by Professor John Carr and ULM Biology team!</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01160.jpg" />
-<figcaption>"I'm glad that they're fiercely defensive." Jess observed. "They need to be vicious to survive in their world."</figcaption>
+<figcaption markdown="span">"I'm glad that they're fiercely defensive." Jess observed. "They need to be vicious to survive in their world."</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc00978.jpg" />
-<figcaption>Making contact with</figcaption>
+<figcaption markdown="span">Making contact with</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01167.jpg" />
-<figcaption>Unable to retract their legs and heads into their shells, young Macros rely on camouflage, sharp beak and a fierce gape to survive.</figcaption>
+<figcaption markdown="span">Unable to retract their legs and heads into their shells, young Macros rely on camouflage, sharp beak and a fierce gape to survive.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01201.jpg" />
-<figcaption>A special moment of reflection. A lot of her hard work, love and devotion went into getting this turtle to this point in life!</figcaption>
+<figcaption markdown="span">A special moment of reflection. A lot of her hard work, love and devotion went into getting this turtle to this point in life!</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01502.jpg" />
-<figcaption>Success! Alligator Snapping Turtles just where they should be, in Black Bayou Lake, Monroe.</figcaption>
+<figcaption markdown="span">Success! Alligator Snapping Turtles just where they should be, in Black Bayou Lake, Monroe.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01663.jpg" />
-<figcaption>Calm beauty of the bottomland forest by the Edgewater Trail.</figcaption>
+<figcaption markdown="span">Calm beauty of the bottomland forest by the Edgewater Trail.</figcaption>
 </figure>
 
 <figure>
@@ -56,7 +56,7 @@ original_url: https://www.friendsofblackbayou.org/blog/2024-earth-day-celebrated
 
 <figure>
 <img src="/assets/images/news/dsc01685.jpg" />
-<figcaption>A female Red-Eared Slider basking by the Black Bayou Lake boardwalk.</figcaption>
+<figcaption markdown="span">A female Red-Eared Slider basking by the Black Bayou Lake boardwalk.</figcaption>
 </figure>
 
 </div>
@@ -94,17 +94,17 @@ Another hike, led by Ace Intern Jackson Cox focused on birding along The Edgewat
 
 <figure>
 <img src="/assets/images/news/dsc01079.jpg" />
-<figcaption>Partners in conservation, ULM, Black Bayou Lake NWR and The Nachitoches National Fish Hatchery released 42 two year-old Alligator Snapping Turtles into Black Bayou Lake 4/27/24!</figcaption>
+<figcaption markdown="span">Partners in conservation, ULM, Black Bayou Lake NWR and The Nachitoches National Fish Hatchery released 42 two year-old Alligator Snapping Turtles into Black Bayou Lake 4/27/24!</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01228.jpg" />
-<figcaption>As species of concern, it is necessary to boost the population in the face of intense predation by raccoons.</figcaption>
+<figcaption markdown="span">As species of concern, it is necessary to boost the population in the face of intense predation by raccoons.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01294.jpg" />
-<figcaption>One of the releases!</figcaption>
+<figcaption markdown="span">One of the releases!</figcaption>
 </figure>
 
 <figure>
@@ -113,27 +113,27 @@ Another hike, led by Ace Intern Jackson Cox focused on birding along The Edgewat
 
 <figure>
 <img src="/assets/images/news/ani-and-charles.jpg" />
-<figcaption>Charles and Ani. Photo courtesy of David Hoover.</figcaption>
+<figcaption markdown="span">Charles and Ani. Photo courtesy of David Hoover.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/cpreleasingturtle.jpg" />
-<figcaption>I was blessed to release this Alligator Snapping Turtle into the lake. A nearby child suggested that he should be named 'Allen'. Photo courtesy of Anirudh Girey.</figcaption>
+<figcaption markdown="span">I was blessed to release this Alligator Snapping Turtle into the lake. A nearby child suggested that he should be named 'Allen'. Photo courtesy of Anirudh Girey.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01634.jpg" />
-<figcaption>Refuge Volunteer Kimmie Paxton with Grouchy, the Louisiana Pine Snake. She represented Louisiana Master Naturalists Northeast, Gulf South Mycological Society, Ouachita Green, Keep West Monroe Beautiful and FoBB.</figcaption>
+<figcaption markdown="span">Refuge Volunteer Kimmie Paxton with Grouchy, the Louisiana Pine Snake. She represented Louisiana Master Naturalists Northeast, Gulf South Mycological Society, Ouachita Green, Keep West Monroe Beautiful and FoBB.</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01320.jpg" />
-<figcaption>"Swim free!"</figcaption>
+<figcaption markdown="span">"Swim free!"</figcaption>
 </figure>
 
 <figure>
 <img src="/assets/images/news/dsc01674.jpg" />
-<figcaption>Released turtles! Gathered together and sunlit!</figcaption>
+<figcaption markdown="span">Released turtles! Gathered together and sunlit!</figcaption>
 </figure>
 
 </div>

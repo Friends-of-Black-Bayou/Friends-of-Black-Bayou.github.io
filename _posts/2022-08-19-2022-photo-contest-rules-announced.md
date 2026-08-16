@@ -24,5 +24,5 @@ The Charles Heck Memorial Grand Prize photo and all first-place photos will be p
 
 <figure>
 <img src="/assets/images/news/ramsom-i-llbiteyourheadoff-macro3_orig.jpg" />
-<figcaption>PHOTOS coming soon...</figcaption>
+<figcaption markdown="span">PHOTOS coming soon...</figcaption>
 </figure>

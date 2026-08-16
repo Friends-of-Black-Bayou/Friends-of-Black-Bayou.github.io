@@ -9,7 +9,7 @@ original_url: https://www.friendsofblackbayou.org/blog/jim-kolinski-is-louisiana
 
 *Jim with a young Southern Broad-banded Watersnake. Jim serves countless hours lovingly caring for and feeding the creatures in his care, cleaning their habitats and meeting the public.*
 
-The LWF awards program recognizes "individuals, organizations, and businesses that have made a significant and outstanding contribution toward the protection and wise use of Louisiana’s natural resources in the previous year. Each honoree will receive a handsome wildlife statuette. The recipients will be honored at a [celebratory banquet at Boudreaux's held in Baton Rouge on April 12, 2024](https://lawildlifefed.org/2023/05/lwf-announces-57th-conservation-achievement-awards-banquet/).
+The LWF awards program recognizes "individuals, organizations, and businesses that have made a significant and outstanding contribution toward the protection and wise use of Louisiana's natural resources in the previous year. Each honoree will receive a handsome wildlife statuette. The recipients will be honored at a [celebratory banquet at Boudreaux's held in Baton Rouge on April 12, 2024](https://lawildlifefed.org/2023/05/lwf-announces-57th-conservation-achievement-awards-banquet/).
 
 **Thank you, LWF!** **It's fantastic news that Jim Kolinski has earned the prestigious [Louisiana Wildlife Federation](https://lawildlifefed.org/)'s Volunteer Conservationist of the Year Award!**
 

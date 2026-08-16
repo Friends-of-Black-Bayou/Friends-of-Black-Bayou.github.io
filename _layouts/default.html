@@ -31,10 +31,10 @@
 	     style="--banner-image: url('{{ page.banner | relative_url }}');
 		    --banner-position: {{ page.banner_position | default: 'center' }};">
       <div class="banner-content">
-	<h1 class="page-title">{{ page.title }}</h1>
+	<h1 class="page-title">{{ page.title | smartify }}</h1>
       </div>
       {% if page.banner_credit %}
-      <p class="banner-credit">{{ page.banner_credit }}</p>
+      <p class="banner-credit">{{ page.banner_credit | smartify }}</p>
       {% endif %}
     </section>
     {% endif %}
