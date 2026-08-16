@@ -1,0 +1,150 @@
+---
+# Categories for the CURRENT (2026) contest. The category set changes between
+# years — 2026 added Arthropods, Fungi and Herps & Fish, and renamed Animals to
+# Mammals — so do not treat this file as a historical record.
+#
+# `example` photos are drawn from the 2026 contest tips deck. Several illustrate
+# a category that did not exist when they were taken, so captions give the year
+# rather than claiming a placing in this category.
+
+- name: Birds
+  good: "Any birds that feature prominently in the shot"
+  invalid: "Non-birds, and birds that are too small in the landscape or images
+  that break the rules."
+  example:
+    image: /assets/images/photo-contest/2023/patches-by-jeff-perot.jpg
+    title: "Patches"
+    photographer: "Jeff Perot"
+    year: 2023
+    note: "Clearly shows the subject as a well-focused bird."
+  counter:
+    image: /assets/images/photo-contest/categories/birds-not-accepted.jpg
+    note: "An image that is not sharp, or has been digitally zoomed in."
+
+- name: Fungi
+  good: "Mushrooms, molds, jelly, shelf and crust fungi, rusts, and lichen."
+  invalid: "Non-fungi and images that break the rules."
+  example:
+    image: /assets/images/photo-contest/2024/apm-hm-fogged-lens-by-aaron-godair.jpg
+    title: "Fogged Lens"
+    photographer: "Aaron Godair"
+    year: 2024
+    note: "Fills the frame with the mushrooms."
+  counter:
+    image: /assets/images/photo-contest/categories/fungi-not-accepted.jpg
+    note: "Lichen is part fungi, part algae and does qualify — but a blurred
+  image will not place."
+
+- name: "Herps and Fish"
+  good: "Herps include: Reptiles such as alligators, turtles, snakes, lizards,
+  skinks. Amphibians frogs, toads, newts, salamanders and sirenians at any
+  life-stage. Fish include any of the fishes seen from the refuges."
+  invalid: "Any other form of creature or images that break the rules."
+  example:
+    image: /assets/images/photo-contest/2022/alligator-reflection-ani-girey.jpg
+    title: "Alligator Reflection"
+    photographer: "Ani Girey"
+    year: 2022
+    note: "Fills the frame with a fine herp. Herps are amphibians and reptiles;
+    fish are accepted here too."
+  counter:
+    image: /assets/images/photo-contest/categories/herps-and-fish-not-accepted.jpg
+    note: "A fish photographed so that the subject is unclear and no details
+  are visible."
+
+- name: Arthropods
+  good: "Any species of Phylum Arthropoda including Insects, Myriapods,
+  Arachnids, Crustaceans etc."
+  invalid: "Any other small invertebrates."
+  example:
+    image: /assets/images/photo-contest/2024/aaplants-1st-place-splash-of-color-by-sharon-dear.jpg
+    title: "Splash of Color"
+    photographer: "Sharon Dear"
+    year: 2024
+    note: "Fills the frame with the subject. All insects and spiders are
+    accepted in this category."
+  counter:
+    image: /assets/images/photo-contest/categories/arthropods-not-accepted.jpg
+    note: "A spider does qualify here, but an out-of-focus image will not
+  place."
+
+- name: Landscape
+  good: "Any scenic views from the NELA refuges, framed vertically or
+  horizontally."
+  invalid: "Any other form of photo or images that break the rules.
+  Panoramas are not allowed."
+  example:
+    image: /assets/images/photo-contest/2016/january-sunset-burg-ransom.jpg
+    title: "January Sunset"
+    photographer: "Burg Ransom"
+    year: 2016
+    note: "A beautiful scene, clearly taken at Black Bayou Lake NWR."
+  counter:
+    image: /assets/images/photo-contest/categories/landscape-not-accepted.jpg
+    note: "A fine landscape photograph that was not taken at one of the
+  refuges named in the rules."
+
+- name: Macro/Micro
+  good: "Any close-up images that show the subject at life-size or larger than
+  life-size in the frame."
+  invalid: "Zoomed-in or close-cropped portraits of wildlife that are smaller
+  than life-size in the frame, like a shot of a deer's face."
+  example:
+    image: /assets/images/photo-contest/2016/dragonfly-mohan-krishna.jpg
+    title: "Dragonfly"
+    photographer: "Mohan Krishna"
+    year: 2016
+    note: "An extreme close-up. Macro and micro photos show detail we would not
+    normally see with the naked eye."
+  counter:
+    image: /assets/images/photo-contest/categories/macro-micro-not-accepted.jpg
+    note: "A dragonfly photographed at ordinary scale belongs in Arthropods
+  instead."
+
+- name: Mammals
+  good: "Any native wildlife in class Mammalia such as deer, bears, rodents,
+  canids, felids, otters, bats, armadillos."
+  invalid: "Any other form of photo or images that break the rules."
+  example:
+    image: /assets/images/photo-contest/2016/little-rascal-mike-colvin.jpg
+    title: "Little Rascal"
+    photographer: "Mike Colvin"
+    year: 2016
+    note: "A raccoon filling the frame, well focused."
+  counter:
+    image: /assets/images/photo-contest/categories/mammals-not-accepted.jpg
+    note: "Turtles are not mammals — that photograph belongs in Herps and
+  Fish."
+
+- name: Plants
+  good: "Any plants of any kind including algae, liverworts and mosses."
+  invalid: "Any non-plant"
+  example:
+    image: /assets/images/photo-contest/2022/light-in-the-shadows-kathy-dage.jpg
+    title: "Light in the Shadows"
+    photographer: "Kathy Dage"
+    year: 2022
+    note: "Shows the subject clearly and well focused, filling the frame."
+  counter:
+    image: /assets/images/photo-contest/categories/plants-not-accepted.jpg
+    note: "A photograph with a plant in the frame, but out of focus and not of
+  contest quality."
+
+- name: "People on The Refuge"
+  good: "Any people in a refuge scene who are unidentifiable (you can't see
+  their faces clearly), or any people that you were permitted to enter their
+  photo into the contest. Any images of juveniles require permission of parents
+  or legal guardians."
+  invalid: "Identifiable people who didn't say it was OK for you to enter their
+  image into the contest.
+  Any photo that might make the subject look bad to themselves or other people"
+  example:
+    image: /assets/images/photo-contest/2024/aap-1st-place-artistic-creations-by-sharon-dear.jpg
+    title: "Artistic Creations"
+    photographer: "Sharon Dear"
+    year: 2024
+    note: "An artist at work at Black Bayou Lake NWR."
+  counter:
+    image: /assets/images/photo-contest/categories/people-on-the-refuge-not-accepted.jpg
+    note: "A photograph not taken on a refuge. Black Bayou Lake, D'Arbonne,
+  Upper Ouachita, Handy Brake and Tensas River NWRs are acceptable locations."

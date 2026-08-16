@@ -1,0 +1,31 @@
+<div class="category-examples">
+  {% for item in site.data.photo_contest_categories %}
+  <section class="category" id="{{ item.name | slugify }}">
+    <h3>{{ item.name }}</h3>
+
+    <div class="category-pair">
+      <figure class="category-example is-good">
+        <img src="{{ item.example.image | relative_url }}" alt="" loading="lazy">
+        <figcaption>
+          <span>Accepted</span>
+          &ldquo;{{ item.example.title }}&rdquo; by {{ item.example.photographer }}, {{ item.example.year }}.
+          {{ item.example.note }}
+        </figcaption>
+      </figure>
+
+      <figure class="category-example is-bad">
+        <img src="{{ item.counter.image | relative_url }}" alt="" loading="lazy">
+        <figcaption>
+          <span>Not accepted</span>
+          {{ item.counter.note }}
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="category-text">
+      <p class="category-good"><span>Qualifies</span> {{ item.good }}</p>
+      <p class="category-invalid"><span>Does not qualify</span> {{ item.invalid }}</p>
+    </div>
+  </section>
+  {% endfor %}
+</div>

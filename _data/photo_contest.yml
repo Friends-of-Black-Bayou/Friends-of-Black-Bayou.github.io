@@ -1,0 +1,11 @@
+---
+year: 2026
+deadline: "October 1, 2026"
+submit_url: "https://form.jotform.com/262076859666070"
+rules_pdf: /assets/docs/2026-photo-contest-rules.pdf
+tips_pdf: /assets/docs/2026-photo-contest-tips.pdf
+open: true
+divisions:
+  - Adult-Professional
+  - Adult-Amateur
+  - Youth

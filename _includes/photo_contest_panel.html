@@ -1,0 +1,36 @@
+<div class="contest-panel">
+  <dl class="contest-facts">
+    <div>
+      <dt>Deadline</dt>
+      <dd>{{ contest.deadline }}</dd>
+    </div>
+    <div>
+      <dt>Entry Fee</dt>
+      <dd>None</dd>
+    </div>
+    <div>
+      <dt>Divisions</dt>
+      <dd>{{ contest.divisions | join: " " }}</dd>
+    </div>
+    <div class="contest-facts-full">
+      <dt>Categories</dt>
+      <dd>
+	<ul class="category-names">
+	  {% for c in site.data.photo_contest_categories %}<li>{{ c.name }}</li>{% endfor %}
+	</ul>
+	<a class="category-more" href="{{ '/photo-contest/categories/' | relative_url }}">Learn more about the categories →</a>
+      </dd>
+    </div>
+  </dl>
+  <p class="contest-actions">
+    <a class="contest-btn" href="{{ contest.submit_url }}">Submit your photos</a>
+    <a class="contest-btn-alt" href="{{ '/photo-contest/rules/' | relative_url }}">Read the Rules</a>
+										  </p>
+  <p class="contest-aside">
+    <a class="category-more" href="{{ '/photo-contest/tips/' | relative_url }}">Photography tips →</a>
+  </p>
+</div>
+
+<p class="contest-note">
+  Feeding, harassing, removing, or otherwise interfering with wildlife on the refuge is against federal law.
+</p>
