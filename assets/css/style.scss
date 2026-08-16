@@ -174,28 +174,73 @@ body {
     color: var(--ivory-dim);
 }
 
-.hero-actions {
+/* ── Buttons ──────────────────────────────────────────────────────────
+   One shape, two palettes. The hero pair sits on the dark banner image;
+   the prose pair sits on the ivory page and must stay .prose-scoped to
+   outrank `.prose a`, which would otherwise strip their colour and add a
+   hover underline. Sizing lives in custom properties so the hero's
+   slightly larger CTAs are declared once instead of duplicated. */
+
+.hero-actions,
+.prose .actions {
+    --btn-pad: 0.8rem 1.6rem;
+    --btn-gap: 0.75rem;
+    --btn-size: 0.95rem;
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
+    gap: var(--btn-gap);
+    margin: 0;
 }
 
-.hero-actions a {
-    padding: 0.85rem 1.8rem;
+.hero-actions {
+    --btn-pad: 0.85rem 1.8rem;
+    --btn-gap: 1rem;
+    --btn-size: 1rem;
+}
+
+.hero-actions a,
+.prose .btn,
+.prose .btn-alt {
+    padding: var(--btn-pad, 0.8rem 1.6rem);
+    border-width: 1.5px;
+    border-style: solid;
     border-radius: 2px;
+    font-size: var(--btn-size, 0.95rem);
     font-weight: 600;
     text-decoration: none;
 }
 
-.btn-primary {
-    border: 1.5px solid transparent;
+/* hero palette — reads against the dark banner */
+.hero-btn {
+    border-color: transparent;
     background-color: var(--sage);
     color: var(--cta-text);
 }
 
-.btn-secondary {
-    border: 1.5px solid var(--ivory-dim);
+.hero-btn-alt {
+    border-color: var(--ivory-dim);
     color: var(--ivory-dim);
+}
+
+/* prose palette — reads against the ivory page */
+.prose .btn {
+    border-color: transparent;
+    background: var(--brand-green);
+    color: var(--ivory);
+}
+
+.prose .btn:hover {
+    background: var(--brand-green-dark);
+    color: var(--ivory);
+}
+
+.prose .btn-alt {
+    border-color: var(--brand-green);
+    color: var(--brand-green);
+}
+
+.prose .btn-alt:hover {
+    background: var(--sage);
 }
 
 .mission {
@@ -307,6 +352,14 @@ body {
 
 .event-title a:hover {
     color: var(--brand-green);
+}
+
+.event-where {
+    margin: 0 0 0.35rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
 }
 
 .event-blurb {
@@ -663,6 +716,25 @@ body {
     margin-bottom: 0.75rem;
 }
 
+/* Venue sits on its own line under the date, so a long name never wraps
+   mid-word the way a single date-time-venue line would. */
+.prose .event-venue {
+    margin: 0 0 2.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+
+.prose .post-date:has(+ .event-venue) {
+    margin-bottom: 0.35rem;
+}
+
+.prose .event-venue:has(+ .archive-note) {
+    margin-bottom: 0.75rem;
+}
+
 .post-list {
     list-style: none;
     margin: 0;
@@ -886,18 +958,20 @@ body {
     margin: 2rem 0;
 }
 
-.contest-facts {
+/* Label/value grid. Each dt/dd pair must be wrapped in a <div>: grid items are
+   direct children, so bare dt/dd would land in separate cells from each other. */
+.facts {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1.25rem;
     margin: 0 0 1.5rem;
 }
 
-.contest-facts-full {
+.facts-full {
     grid-column: 1 / -1;
 }
 
-.contest-facts dt {
+.facts dt {
     font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 0.06em;
@@ -906,48 +980,13 @@ body {
     margin-bottom: 0.3rem;
 }
 
-.contest-facts dd {
+.facts dd {
     margin: 0;
+    overflow-wrap: anywhere;   /* long unbroken values must not escape the cell */
     font-family: var(--font-heading);
     font-size: 1.05rem;
     line-height: 1.35;
     color: var(--text-display);
-}
-
-.contest-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.75rem;
-    margin: 0;
-}
-
-.prose .contest-btn,
-.prose .contest-btn-alt {
-    padding: 0.8rem 1.6rem;
-    border: 1.5px solid transparent;
-    border-radius: 2px;
-    font-size: 0.95rem;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.prose .contest-btn {
-    background: var(--brand-green);
-    color: var(--ivory);
-}
-
-.prose .contest-btn:hover {
-    background: var(--brand-green-dark);
-    color: var(--ivory);
-}
-
-.prose .contest-btn-alt {
-    border-color: var(--brand-green);
-    color: var(--brand-green);
-}
-
-.prose .contest-btn-alt:hover {
-    background: var(--sage);
 }
 
 .contest-note {

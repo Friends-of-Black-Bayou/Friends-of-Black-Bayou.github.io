@@ -1,5 +1,5 @@
 <div class="contest-panel">
-  <dl class="contest-facts">
+  <dl class="facts">
     <div>
       <dt>Deadline</dt>
       <dd>{{ contest.deadline }}</dd>
@@ -12,7 +12,7 @@
       <dt>Divisions</dt>
       <dd>{{ contest.divisions | join: " " }}</dd>
     </div>
-    <div class="contest-facts-full">
+    <div class="facts-full">
       <dt>Categories</dt>
       <dd>
 	<ul class="category-names">
@@ -22,9 +22,9 @@
       </dd>
     </div>
   </dl>
-  <p class="contest-actions">
-    <a class="contest-btn" href="{{ contest.submit_url }}">Submit your photos</a>
-    <a class="contest-btn-alt" href="{{ '/photo-contest/rules/' | relative_url }}">Read the Rules</a>
+  <p class="actions">
+    <a class="btn" href="{{ contest.submit_url }}">Submit your photos</a>
+    <a class="btn-alt" href="{{ '/photo-contest/rules/' | relative_url }}">Read the Rules</a>
 										  </p>
   <p class="contest-aside">
     <a class="category-more" href="{{ '/photo-contest/tips/' | relative_url }}">Photography tips →</a>
