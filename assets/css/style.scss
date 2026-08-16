@@ -574,18 +574,48 @@ body {
     margin: 3rem 0;
 }
 
-.prose blockquote {
+/* Pull quote — repeats a line already in the body copy, purely for
+   emphasis. Not a quotation. Markup is <aside class="pullquote"
+   aria-hidden="true" markdown="1"> so it isn't announced twice.
+   Styling moved verbatim from the old .prose blockquote rule. */
+.prose .pullquote {
     margin: 2.2rem 0;
     padding-left: 1.5rem;
     border-left: 3px solid var(--brand-green);
 }
 
-.prose blockquote p {
+.prose .pullquote p {
     font-family: var(--font-heading);
     font-style: italic;
     font-size: 1.3rem;
     line-height: 1.5;
     color: var(--text-display);
+}
+
+/* Extract — an actual quotation, set with markdown's `>`. An extract is a
+   document inside the document: it recedes rather than shouts, so the pull
+   quote above stays the loudest thing on the page. */
+.prose blockquote {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--sage);
+}
+
+.prose blockquote p {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-size: 1.05rem;   /* body is 1.1rem — a step down, not a shrink */
+    line-height: 1.7;
+    color: var(--text-muted);
+}
+
+.prose blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* keep *emphasis* visible inside an extract */
+.prose blockquote em {
+    font-style: italic;
 }
 
 .home-section {
