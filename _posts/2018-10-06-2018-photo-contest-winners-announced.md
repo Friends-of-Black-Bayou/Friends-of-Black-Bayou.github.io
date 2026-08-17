@@ -6,8 +6,10 @@ original_url: https://www.friendsofblackbayou.org/blog/2018-photo-contest-winner
 **Friends of Black Bayou Lake National Wildlife Refuge Annual Photo Contest Results**\
 Winners of the fourteenth annual Friends of Black Bayou photo contest were named on October 6, 2018, with a scenic/professional division photo called ***"Full Moon Ibis" by local photographer William Watson winning Best of Show.***
 
-All photos in the contest were taken at the North Louisiana Refuges Complex, including Black Bayou Lake National Wildlife Refuge, D'Arbonne National Wildlife Refuge, Upper Ouachita National Wildlife Refuge and Handy Brake National Wildlife Refuge.\
-FoBB board member Leslie Calhoun was chair of the contest this year, with assistance from FoBB members Kris Kelley, Gloria Dedmon, Bob Eisenstadt, Monique Keeling, and Ann Bloxom Smith. Judges were several local photographers who evaluated the entries in youth, adult professional and adult amateur categories. Charles Heck, Sr., founded the contest in 2004. Kristopher Kelley is the current president of the Friends.\
+All photos in the contest were taken at the North Louisiana Refuges Complex, including Black Bayou Lake National Wildlife Refuge, D'Arbonne National Wildlife Refuge, Upper Ouachita National Wildlife Refuge and Handy Brake National Wildlife Refuge.
+
+FoBB board member Leslie Calhoun was chair of the contest this year, with assistance from FoBB members Kris Kelley, Gloria Dedmon, Bob Eisenstadt, Monique Keeling, and Ann Bloxom Smith. Judges were several local photographers who evaluated the entries in youth, adult professional and adult amateur categories. Charles Heck, Sr., founded the contest in 2004. Kristopher Kelley is the current president of the Friends.
+
 The public is invited to view the winning photos during the annual Fall Celebration, which occurs Saturday, October 13, 2018, 10 am-3 pm, when there will also be a free lunch and lots of family activities. The photos will also be on display in the Refuge Visitor Center at least through November, in addition to being on the FoBB website, [www.friendsofblackbayou.org](http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.friendsofblackbayou.org%2F&h=eAQG7l0qeAQERFBZAfxy-T09zBtoCfMos1Nkq69P4pBoXQQ&enc=AZMhGrm5UCTWnJDY8pqM5MhTORhTN32dtPIEdwQQu6ycgsbHn2fK-WOu4OucgrfzTPKcQRF1nrggkQVyNFCeu3wmJgL-B0e-RLxAE595uN-2rXbnwN-6X-Ihy4kJ4S3OohIKP7XvsL9fGk9_J3coQC9wUuNXZ1tZHDOo5bUyYOiBsw&s=1)
 
 Ribboned photographs are as follows:\

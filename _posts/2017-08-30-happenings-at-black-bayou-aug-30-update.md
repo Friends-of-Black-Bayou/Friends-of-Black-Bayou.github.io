@@ -12,7 +12,8 @@ Water Sweep is September 9th. We could sure use your help at Black Bayou! Sign-u
 ([See flyer attached](/assets/images/news/water_sweep.jpg))
 
 FWS is starting a new Refuge Krewe!\
-Next month we will be starting a new volunteer training program, recruiting people for the Refuge Krewe! If you want to learn more and help protect refuge and enjoy talking with people, we can use your help. Training will start either Sept 26th or Sept 28th. Details below and you can email [Nova_Clarke@fws.gov](mailto:Nova_Clarke@fws.gov) if you have questions or want to sign up.\
+Next month we will be starting a new volunteer training program, recruiting people for the Refuge Krewe! If you want to learn more and help protect refuge and enjoy talking with people, we can use your help. Training will start either Sept 26th or Sept 28th. Details below and you can email [Nova_Clarke@fws.gov](mailto:Nova_Clarke@fws.gov) if you have questions or want to sign up.
+
 ([See flyer attached](/assets/images/news/refuge_krewe.jpg))
 
 Monthly Friends Meeting – Sponsored by Ouachita Valley ACS September 18th at 6:30pm\

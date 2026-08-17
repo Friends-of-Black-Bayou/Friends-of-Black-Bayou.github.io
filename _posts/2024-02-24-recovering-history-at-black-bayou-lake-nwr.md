@@ -57,10 +57,12 @@ When asked about the challenges she answered "I will say that it was challenging
 
 The rewards, however, were well worth the troubles! Kristen says "This project has become so special to my heart and getting to know Mr. Freeze in his later days is something I will forever cherish. He was an extraordinary man and someone who impacted not only my life, but hundreds of others in many ways. Through this project I was also able to meet his wonderful family, members of the St. Timothy Baptist Church, like the delightful, Mrs. Bertha Scott, whose stories will be featured later in the podcast, and Mr. Hugh Tucker, whose familial connections to the refuge's land also run deep."
 
-Kristen is grateful for the support for the project, "Refuge Manager, Erin Bellavia, has been so supportive during my time with this project, and honestly, one of my biggest cheerleaders. Any time I found new information, she was just as excited as I was and pushed me to keep going on days I continuously hit roadblocks. I have made lifelong friendships through this project and am so thankful for Black Bayou."\
+Kristen is grateful for the support for the project, "Refuge Manager, Erin Bellavia, has been so supportive during my time with this project, and honestly, one of my biggest cheerleaders. Any time I found new information, she was just as excited as I was and pushed me to keep going on days I continuously hit roadblocks. I have made lifelong friendships through this project and am so thankful for Black Bayou."
+
 When asked about her wildlife encounters Kristen said "I have seen alligators and snakes here and there, but nothing too crazy. I know to most, that actually might seem "too crazy," but as an avid nature and wildlife lover, I just saw it as another day on the refuge. I fell in love with Brother (one of the refuge's captive Louisiana Pine Snakes) my first week at the refuge, although I can't say the same for Grouchy, LOL! "
 
-"Falling asleep and waking up to nature's symphony was also one of the highlight's of being at BBL. It is such a peaceful place and getting to know the land and so many other people that care about it was so touching."\
+"Falling asleep and waking up to nature's symphony was also one of the highlight's of being at BBL. It is such a peaceful place and getting to know the land and so many other people that care about it was so touching."
+
 Kristen says "Black Bayou will always have a piece of my heart."
 
 *"[American Conservation Experience (ACE)](https://www.usaconservation.org/) is a non-profit organization dedicated to providing rewarding environmental service opportunities for young adults and emerging professionals of all backgrounds to explore and improve public lands while gaining practical professional experience."*

@@ -3,7 +3,8 @@ title: "Earth Day 2023 at Black Bayou Lake National Wildlife Refuge in Monroe, L
 date: 2023-05-07
 original_url: https://www.friendsofblackbayou.org/blog/earth-day-2023-at-black-bayou-lake-national-wildlife-refuge-in-monroe-louisiana
 ---
-A good time was had by all at the Earth Day 2023 celebration event at Northeast Louisiana's Black Bayou Lake National Wildlife Refuge! There was also plenty of environmental education from soil science and herpetology to Climate Sience.\
+A good time was had by all at the Earth Day 2023 celebration event at Northeast Louisiana's Black Bayou Lake National Wildlife Refuge! There was also plenty of environmental education from soil science and herpetology to Climate Sience.
+
 This sort of event is great for outreach and recruiting new FoBB members and volunteers.\
 Would you like to join Friends of Black Bayou?
 
