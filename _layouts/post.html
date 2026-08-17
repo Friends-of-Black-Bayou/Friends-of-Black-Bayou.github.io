@@ -12,6 +12,9 @@ layout: default
   {% else %}
   <p class="post-date">{{ page.date | date: "%B %-d, %Y" }}</p>
   {% endif %}
+  {%- if page.event_location -%}
+    <p class="event-venue">{% include venue_name.html location=page.event_location %}</p>
+  {%- endif -%}
   {% assign ref_date  = page.event_date | default: page.date %}
   {% assign now_year  = site.time | date: '%Y' | plus: 0 %}
   {% assign post_year = ref_date | date: '%Y' | plus: 0 %}

@@ -36,7 +36,8 @@ layout: default
 	<div class="event-date">{{ event.event_date | date: "%b %-d"}}</div>
 	<div class="event-detail">
 	  <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title | smartify }}</a></h3>
-	  <p class="event-blurb">{{ event.blurb | smartify }}</p>
+	  {% if event.event_location %}<p class="event-where">{% include venue_name.html location=event.event_location %}</p>{% endif %}
+	  {% if event.blurb %}<p class="event-blurb">{{ event.blurb | smartify }}</p>{% endif %}
 	</div>
       </li>
       {% endfor %}
