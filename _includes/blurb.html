@@ -1,0 +1,16 @@
+{%- comment -%}
+  Plain-text summary for a listing row.
+
+  Uses `override` when one is supplied (an event's `blurb:`, a post's front-matter
+  `excerpt:`); otherwise derives a snippet from the item's own content. strip_html
+  removes all markup, so figures and images never end up in a listing -- a row is
+  always words, never a picture.
+
+    {% include blurb.html content=post.content override=post.excerpt_override words=30 %}
+{%- endcomment -%}
+{%- assign n = include.words | default: 26 -%}
+{%- if include.override and include.override != empty -%}
+{{- include.override | strip_html | normalize_whitespace | smartify -}}
+{%- else -%}
+{{- include.content | strip_html | normalize_whitespace | truncatewords: n -}}
+{%- endif -%}

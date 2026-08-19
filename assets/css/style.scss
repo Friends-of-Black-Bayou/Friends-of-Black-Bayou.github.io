@@ -27,6 +27,14 @@
     box-sizing: border-box;
 }
 
+/* Images never exceed their container. .prose img adds spacing on top of this;
+   this baseline also covers images rendered outside .prose, such as post
+   excerpts on the home page. */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: var(--bg);
     margin: 0;

@@ -12,7 +12,8 @@ banner_credit: "\"Caught\" by John K. Guice"
 <li class="post-list-item">
 <a class="post-list-title" href="{{ post.url | relative_url }}">{{ post.title | smartify }}</a>
 <p class="post-list-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-<div class="post-list-excerpt">{{ post.excerpt }}</div>
+<div class="post-list-excerpt">{% include blurb.html content=post.content override=post.blurb words=30 %}</div>
+<a class="more-link" href="{{ post.url | relative_url }}">Read more →</a>
 </li>
 {% endfor %}
 </ul>
