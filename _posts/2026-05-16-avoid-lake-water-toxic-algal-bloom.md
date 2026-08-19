@@ -3,8 +3,8 @@ title: "Toxic Algal Bloom Dissipated"
 date: 2026-05-16
 original_url: https://www.friendsofblackbayou.org/blog/avoid-lake-water-toxic-algal-bloom
 ---
-Harmful Algal Bloom Advisory.
-------------------------------
+
+**Harmful Algal Bloom Advisory.**
 
 The FoBB Board Meeting (Monday May 18) heard that the potentially harmful Algal bloom detected at Black Bayou Lake National Wildlife Refuge has now dissipated.
 
@@ -17,5 +17,4 @@ Cyanobacteria (blue-green algae) can produce toxins that can cause serious illne
 
 **Contact your doctor if you or a family member experiences sudden or unexplained illness. Contact your veterinarian if your animal experiences sudden or unexplained illness.**
 
-**For more information see the CDC website:** [https://www.cdc.gov/habs/\
-or](http://www.cdc..gov/perhaps/or) **see the EPA website** [https://www.epa.gov/cyanohabs](https://www.epa.gov/cyanhayes).
+**For more information see the CDC website:** [https://cdc.gov/habs/](https://cdc.gov/habs/) or **see the EPA website** [https://www.epa.gov/cyanohabs](https://www.epa.gov/cyanohabs).

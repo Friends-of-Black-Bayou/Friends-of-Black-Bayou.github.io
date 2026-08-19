@@ -15,4 +15,3 @@ First-place winning photos will be displayed in the Refuge Visitor Center as soo
 Our thanks to the contest chairs, Leslie Calhoun and Kimberly Paxton, along with the anonymous judges.
 
 The Charles Heck Memorial Grand Prize winner this year was taken by amateur photographer Tony Tramontana and is entitled "Nature Provides"
-
