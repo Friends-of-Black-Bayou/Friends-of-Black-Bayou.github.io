@@ -21,7 +21,8 @@ banner_credit: "\"Caught\" by John K. Guice"
     <div class="event-detail">
       <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title | smartify }}</a></h3>
       {% if event.event_location %}<p class="event-where">{% include venue_name.html location=event.event_location %}</p>{% endif %}
-      {% if event.blurb %}<p class="event-blurb">{{ event.blurb | smartify }}</p>{% endif %}
+      <p class="event-blurb">{% include event_blurb.html event=event %}</p>
+      <a class="more-link" href="{{ event.url | relative_url }}">Read more →</a>
     </div>
   </li>
 {% endfor %}
@@ -38,9 +39,12 @@ banner_credit: "\"Caught\" by John K. Guice"
     <div class="event-detail">
       <h3 class="event-title"><a href="{{ event.url | relative_url }}">{{ event.title | smartify }}</a></h3>
       {% if event.event_location %}<p class="event-where">{% include venue_name.html location=event.event_location %}</p>{% endif %}
-      {% if event.blurb %}<p class="event-blurb">{{ event.blurb | smartify }}</p>{% endif %}
+      <p class="event-blurb">{% include event_blurb.html event=event %}</p>
+      <a class="more-link" href="{{ event.url | relative_url }}">Read more →</a>
     </div>
   </li>
 {% endfor %}
 </ul>
 {% endif %}
+
+<a class="section-link" href="{{ "/events/past/" | relative_url }}">Browse the 2012&ndash;2018 archive &rarr;</a>

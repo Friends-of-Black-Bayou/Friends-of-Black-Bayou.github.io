@@ -1,0 +1,7 @@
+{%- comment -%}
+  Resolves an event_location value to a display name.
+  Accepts a key from _data/locations.yml, or any free-text venue string.
+    {% include venue_name.html location=event.event_location %}
+{%- endcomment -%}
+{%- assign loc = site.data.locations[include.location] -%}
+{{- loc.name | default: include.location | smartify -}}

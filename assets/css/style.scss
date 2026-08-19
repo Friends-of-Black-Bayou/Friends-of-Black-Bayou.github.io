@@ -296,12 +296,26 @@ body {
     color: var(--text-muted);
 }
 
-.card-link {
+/* Small uppercase "onward" links. One treatment, three placements. */
+.card-link,
+.section-link,
+.more-link {
     font-size: 0.82rem;
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--brand-green);
+    text-decoration: none;
+}
+
+.section-link {
+    display: inline-block;
+    margin-top: 1.25rem;
+}
+
+.more-link {
+    display: inline-block;
+    margin-top: 0.4rem;
 }
 
 .card--compact .card-body {
@@ -367,17 +381,6 @@ body {
     font-size: 0.95rem;
     line-height: 1.6;
     color: var(--text-muted);
-}
-
-.section-link {
-    display: inline-block;
-    margin-top: 1.25rem;
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--brand-green);
-    text-decoration: none;
 }
 
 .page-title{

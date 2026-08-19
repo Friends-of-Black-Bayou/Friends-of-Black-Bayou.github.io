@@ -1,0 +1,11 @@
+{%- comment -%}
+  Listing blurb for an event. Uses the front-matter `blurb` when one is set,
+  otherwise derives a snippet from the event's own opening prose so the text
+  lives in exactly one place.
+    {% include event_blurb.html event=event %}
+{%- endcomment -%}
+{%- if include.event.blurb -%}
+{{- include.event.blurb | smartify -}}
+{%- else -%}
+{{- include.event.content | strip_html | normalize_whitespace | truncatewords: 26 -}}
+{%- endif -%}

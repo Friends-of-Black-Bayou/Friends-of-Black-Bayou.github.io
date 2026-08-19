@@ -1,0 +1,23 @@
+# Recurring event venues.
+#
+# An event's `event_location:` may be one of these keys, e.g.
+#   event_location: visitor-center
+# or any free-text string for a one-off venue, e.g.
+#   event_location: "West Monroe Chamber of Commerce"
+# Unrecognised values fall through and display as written.
+
+visitor-center:
+  name: "Visitor Center"
+  on_refuge: true
+
+clc:
+  name: "Conservation Learning Center"
+  on_refuge: true
+
+blue-goose:
+  name: "Blue Goose Pavilion"
+  on_refuge: true
+
+bbl:
+  name: "Black Bayou Lake National Wildlife Refuge"
+  on_refuge: true
